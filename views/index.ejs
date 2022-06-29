@@ -7,6 +7,7 @@
     <title>Document</title>
 </head>
 <body>
+    <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; height: 80vh;">
     <% if (locals.fileLink != null) { %>
         <div style="margin-bottom: 1rem;">
             Your file is uploaded
@@ -20,5 +21,6 @@
         <input type="password" id="password" name="password"/>
         <button style="grid-column: span 2;" type="submit">Share</button>
     </form>
+</div>
 </body>
 </html>
